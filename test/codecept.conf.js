@@ -3,7 +3,7 @@ exports.config = {
   output: './output',
   helpers: {
     Puppeteer: {
-      url: 'http://localhost:2015/',
+      url: 'http://localhost:2015', //Không cần có trail back slash /
       show: true,
       waitForAction: 800
     }
